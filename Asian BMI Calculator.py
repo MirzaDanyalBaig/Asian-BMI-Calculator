@@ -12,11 +12,11 @@ print(" ")
 print(" ")
 if body_mass_index <= 17.5:
     print("You are Under-weight")
-if 17.5 < body_mass_index:
+if body_mass_index > 17.5:
     if body_mass_index <= 22.99:
         print ("You are Normal-weight")
-if 22.9 < body_mass_index:
+if body_mass_index > 22.9:
     if body_mass_index <= 27.99:
         print("You are Over-weight")
-if 27.99 < body_mass_index:
+if body_mass_index > 27.99:
     print("You are Obese")
